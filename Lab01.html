@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab01</title>
+</head>
+<body>
+<center>
+<!-----------------------------------------qUESTION 01 ANSWERS ---------------------------------------------->
+<script>
+    var message = function helloworldfunction(){
+        return "hello world"
+    }
+    function takehellofunction(message){
+        document.getElementById("osa1").innerHTML = message
+    }
+</script>
+
+<button type="submit" onclick="takehellofunction();">Click here</button>
+<p id="osa1"></p>
+<!-------------------------------qUESTION 01 ENDS HERE------------------------------------------------>
+
+
+<!------------------------------------qUESTION 02------------------------------------------------>
+<script>
+    function jasonfunc() {
+        {
+            "employees"
+        :
+            [
+                {"firstName": "John", "lastName": "Doe"},
+                {"firstName": "Anna", "lastName": "Smith"},
+                {"firstName": "Peter", "lastName": "Jones"}
+            ]
+        }
+    }
+</script>
+<!-------------------------------qUESTION 02 ENDS HERE------------------------------------------------>
+<br><br><hr>
+<!------------------------------------qUESTION 03------------------------------------------------>
+<script>
+    var vehicleName;
+    function printVehicleName() {
+        // console.log(vehicleName)
+        vehicleName = {
+            "Vehicle"
+        :
+            [
+                {"vehicleName" : "Corolla"}
+            ]
+        }
+        return vehicleName
+    }
+    function getVehicleName() {
+        document.getElementById("osa2").innerHTML = printVehicleName()
+    }
+
+</script>
+<button type="submit" onclick="getVehicleName();">Click here</button>
+<p id="osa2"></p>
+<!-------------------------------qUESTION 02 ENDS HERE------------------------------------------------>
+
+</center>
+</body>
+</html>
